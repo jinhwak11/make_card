@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.happybirthday.MainActivity">
+    <ImageView
+        android:id="@+id/ryu2_image_view"
+        android:src="@drawable/ryu2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/darker_gray"
+        android:layout_weight="2"
+        />
+    <ImageView
+        android:id="@+id/ryu3_image_view"
+        android:src="@drawable/ryu3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/darker_gray"
+        android:layout_weight="2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Ryu JunYeol"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="42dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/birthday_text_view"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="1986.09.25"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        />
+
+
+</LinearLayout>
